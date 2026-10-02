@@ -202,7 +202,11 @@ h2.title{ font-size:clamp(2rem,5vw,3.4rem); max-width:18ch; }
 .team-shot{ margin-top:2rem; padding:0; border-radius:var(--r-l); background:transparent; border:0; box-shadow:none; }
 .team-shot img{ width:100%; border-radius:var(--r-l); box-shadow:0 30px 70px -40px rgba(20,20,22,.3); }
 .team-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.1rem; margin-top:1.3rem; }
-.doc{ padding:1.5rem 1.5rem; border-radius:var(--r); }
+.doc{ padding:0; border-radius:var(--r); overflow:hidden; display:flex; flex-direction:column; }
+.doc .ph{ aspect-ratio:4/4.2; overflow:hidden; background:#dedee2; }
+.doc .ph img{ width:100%; height:100%; object-fit:cover; object-position:center top; }
+.doc .bd{ padding:1.3rem 1.5rem 1.5rem; }
+.doc::before{ display:none; }
 .doc .role{ color:var(--mist); font-size:.72rem; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
 .doc h3{ font-size:1.3rem; margin:.5rem 0 .55rem; }
 .doc p{ color:var(--mist); font-size:.9rem; margin:0; line-height:1.5; }
@@ -507,41 +511,59 @@ h2.title{ font-size:clamp(2rem,5vw,3.4rem); max-width:18ch; }
       <h2 class="title">The experienced team behind <em>every smile</em></h2>
       <p class="lede">Decades of combined expertise, a passion for modern dentistry and genuine care for every patient who walks through our door.</p>
     </div>
-    <div class="team-shot glass reveal"><img src="team.webp" alt="The Artarmon Dentists team" loading="lazy"></div>
+    <div class="team-shot glass reveal"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/05/Rectangle-21-3-1.jpg" alt="The Artarmon Dentists team" loading="lazy"></div>
 
     <div class="team-grid">
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/04/Background.png" alt="Dr Nick Mehta" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Principal Dentist</div>
         <h3>Dr Nick Mehta</h3>
         <p>Leads implant and full-arch dentistry. Treating patients in Artarmon since 2013.</p>
         <ul class="creds"><li>BDS (Hons)</li><li>PG Dip Implants (UCLA)</li></ul>
+        </div>
       </div>
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/04/Background-1.png" alt="Dr Radhika Bhatla" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Cosmetic &amp; General Dentist</div>
         <h3>Dr Radhika Bhatla</h3>
         <p>Cosmetic dentistry, Invisalign and digital orthodontics for adults and children.</p>
         <ul class="creds"><li>BDS (ADC SYD)</li><li>PGDip Digital Orthodontics</li><li>Platinum Invisalign Provider</li></ul>
+        </div>
       </div>
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/04/Background-2.png" alt="Dr John Woo" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Dentist</div>
         <h3>Dr John Woo</h3>
         <p>General and family dentistry with a gentle, patient-first approach.</p>
+        </div>
       </div>
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/04/Background-3.png" alt="Dr Saransh Rola" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Dentist</div>
         <h3>Dr Saransh Rola</h3>
         <p>General and restorative dentistry for patients of all ages.</p>
+        </div>
       </div>
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/05/Background-44.png" alt="Jash Thakkar" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Oral Health Therapist</div>
         <h3>Jash Thakkar</h3>
         <p>Preventive care, cleans and hygiene. More than ten years in dentistry.</p>
         <ul class="creds"><li>BOH, University of Sydney</li></ul>
+        </div>
       </div>
       <div class="doc glass reveal">
+        <div class="ph"><img src="https://www.artarmondentists.com/wp-content/uploads/2026/05/Background-46-1.png" alt="Puja Sarker" loading="lazy"></div>
+        <div class="bd">
         <div class="role">Oral Health Therapist</div>
         <h3>Puja Sarker</h3>
         <p>Preventive care, cleans and patient education for the whole family.</p>
+        </div>
       </div>
     </div>
 
