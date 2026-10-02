@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<meta name="googlebot" content="noindex, nofollow">
+<title>Your Trusted Dentist in Artarmon for Over 40 Years | Artarmon Dentists</title>
+<meta name="description" content="Family owned and caring for Artarmon for over 40 years. Claim on the spot with your health fund through HICAPS, all health funds accepted. New Patient Special available. Book online in under a minute.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23141416'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='19' font-weight='bold' text-anchor='middle' fill='white'%3EA%3C/text%3E%3C/svg%3E">
+<meta name="theme-color" content="#e8e8ea">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Your Trusted Dentist in Artarmon for Over 40 Years">
+<meta property="og:description" content="Gentle, thorough family dentistry opposite Artarmon station. All health funds accepted with HICAPS on the spot. Ask about our New Patient Special.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================================
+   ARTARMON DENTISTS: New Patient landing page · light liquid glass
+   ========================================================================= */
+:root{
+  --paper:#e8e8ea; --paper-2:#f3f3f4; --ink:#141416; --ink-2:#3d3d44; --mist:#62626b; --mist-dim:#8a8a91;
+  --line:rgba(20,20,22,.09); --line-2:rgba(20,20,22,.16);
+  --gold:#f0b429; --open:#16a34a; --closed:#dc2626;
+  --glass:rgba(255,255,255,.62); --glass-2:rgba(255,255,255,.42);
+  --glass-edge:rgba(20,20,22,.08); --glass-edge-2:rgba(20,20,22,.18);
+  --glass-blur:blur(22px) saturate(135%);
+  --r:24px; --r-s:16px; --r-l:32px;
+  --bar-h:68px; --dock-h:76px; --maxw:1200px;
+  --shadow-soft:0 18px 50px -24px rgba(20,20,22,.18);
+  --shadow-card:0 24px 60px -30px rgba(20,20,22,.2), inset 0 1px 0 rgba(255,255,255,.7);
+  --ease:cubic-bezier(.16,.84,.34,1);
+}
+*,*::before,*::after{ box-sizing:border-box; }
+html{ -webkit-text-size-adjust:100%; scroll-behavior:smooth; scroll-padding-top:calc(var(--bar-h) + 12px); }
+body{ margin:0; font-family:"Plus Jakarta Sans",system-ui,-apple-system,sans-serif; color:var(--ink-2); background:var(--paper);
+  line-height:1.55; -webkit-font-smoothing:antialiased; overflow-x:hidden; }
+img{ max-width:100%; display:block; }
+button{ font-family:inherit; cursor:pointer; }
+a{ color:inherit; }
+:focus-visible{ outline:2px solid var(--ink); outline-offset:3px; border-radius:6px; }
+
+/* ---------- Ambient background ---------- */
+.bg{ position:fixed; inset:0; z-index:-2; overflow:hidden;
+  background:radial-gradient(120% 100% at 80% -10%,#f2f2f4 0%,transparent 55%),
+             radial-gradient(120% 120% at -10% 110%,#dddde1 0%,transparent 50%),
+             linear-gradient(160deg,#eeeef0 0%,var(--paper) 45%,#e0e0e4 100%); }
+.orb{ position:absolute; border-radius:50%; filter:blur(80px); opacity:.5; will-change:transform; }
+.orb.a{ width:46vmax; height:46vmax; top:-14vmax; right:-10vmax; background:radial-gradient(circle at 30% 30%,#d2d2d8,transparent 65%); animation:drift1 26s var(--ease) infinite alternate; }
+.orb.b{ width:40vmax; height:40vmax; bottom:-14vmax; left:-12vmax; background:radial-gradient(circle at 60% 40%,#e3e3e7,transparent 62%); opacity:.45; animation:drift2 32s var(--ease) infinite alternate; }
+.orb.c{ width:30vmax; height:30vmax; top:35%; left:48%; background:radial-gradient(circle at 50% 50%,#e8e8eb,transparent 60%); opacity:.4; animation:drift3 38s var(--ease) infinite alternate; }
+@keyframes drift1{ to{ transform:translate3d(-6vmax,5vmax,0) scale(1.1);} }
+@keyframes drift2{ to{ transform:translate3d(7vmax,-4vmax,0) scale(1.12);} }
+@keyframes drift3{ to{ transform:translate3d(-5vmax,-6vmax,0) scale(.92);} }
+.bg::after{ content:""; position:absolute; inset:0; opacity:.035; mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E"); }
+
+/* ---------- Glass ---------- */
+.glass{ position:relative; background:linear-gradient(155deg,var(--glass) 0%,var(--glass-2) 100%);
+  -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur);
+  border:1px solid var(--glass-edge); border-radius:var(--r); box-shadow:var(--shadow-card); }
+.glass::before{ content:""; position:absolute; inset:0; border-radius:inherit; pointer-events:none;
+  background:linear-gradient(180deg,rgba(255,255,255,.55),transparent 30%); }
+/* no sheen over photos, video, map or the booking widget */
+.frame::before,.team-shot::before,.video-wrap::before,.map-frame::before,.book-frame::before,.vfacade::before{ display:none; }
+
+/* ---------- Buttons ---------- */
+.btn{ display:inline-flex; align-items:center; justify-content:center; gap:.55em; font-weight:600; font-size:.98rem; letter-spacing:.01em; line-height:1;
+  padding:.95em 1.5em; border-radius:999px; border:1px solid transparent; text-decoration:none;
+  transition:transform .25s var(--ease),box-shadow .25s var(--ease),background .25s; white-space:nowrap; }
+.btn svg{ width:1.05em; height:1.05em; }
+.btn-primary{ color:#fff; background:linear-gradient(180deg,#2b2b30,#141416);
+  box-shadow:0 14px 30px -12px rgba(20,20,22,.55),inset 0 1px 0 rgba(255,255,255,.14); border-color:#141416; }
+.btn-primary:hover{ transform:translateY(-2px); box-shadow:0 20px 40px -14px rgba(20,20,22,.6); }
+.btn-ghost{ color:var(--ink); background:rgba(255,255,255,.6); -webkit-backdrop-filter:var(--glass-blur); backdrop-filter:var(--glass-blur); border:1px solid var(--glass-edge-2); }
+.btn-ghost:hover{ transform:translateY(-2px); border-color:var(--ink); }
+.btn-lg{ padding:1.1em 1.8em; font-size:1.02rem; }
+
+/* ---------- Top bar ---------- */
+.topbar{ position:fixed; top:0; left:0; right:0; height:var(--bar-h); z-index:60; display:flex; align-items:center; justify-content:space-between; gap:1rem;
+  padding:0 clamp(16px,4vw,40px); padding-top:env(safe-area-inset-top);
+  background:linear-gradient(180deg,rgba(236,236,238,.9),rgba(236,236,238,.65));
+  -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%); border-bottom:1px solid var(--line); }
+.brand img{ height:36px; width:auto; }
+.topbar-actions{ display:flex; gap:.6rem; align-items:center; }
+.topbar .btn{ padding:.72em 1.2em; font-size:.9rem; }
+.topbar .btn-ghost{ padding:.72em .9em; }
+
+/* ---------- Layout ---------- */
+.section{ position:relative; padding:clamp(56px,8vw,110px) clamp(20px,5vw,48px); }
+.inner{ width:100%; max-width:var(--maxw); margin:0 auto; }
+.eyebrow{ display:inline-flex; align-items:center; gap:.6em; font-size:.7rem; font-weight:700; letter-spacing:.22em; text-transform:uppercase; color:var(--ink); margin:0 0 1rem; }
+.eyebrow::before{ content:""; width:26px; height:1px; background:linear-gradient(90deg,var(--ink),transparent); }
+h1,h2,h3{ font-family:"Fraunces",serif; font-weight:500; line-height:1.04; margin:0; letter-spacing:-.01em; color:var(--ink); }
+h2.title{ font-size:clamp(2rem,5vw,3.4rem); max-width:18ch; }
+.title em{ font-style:italic; color:var(--mist); }
+.lede{ color:var(--mist); font-size:clamp(1rem,1.6vw,1.18rem); max-width:56ch; margin:1.1rem 0 0; }
+.center{ text-align:center; } .center h2.title,.center .lede{ margin-left:auto; margin-right:auto; }
+.center .eyebrow{ justify-content:center; }
+
+/* ---------- Hero ---------- */
+#hero{ position:relative; isolation:isolate; min-height:100svh; display:flex; align-items:center; padding-top:calc(var(--bar-h) + clamp(28px,6vh,64px)); }
+.hero-photo{ position:absolute; inset:0; z-index:0; pointer-events:none; background:url("reception.webp") center 40% / cover no-repeat; }
+.hero-veil{ position:absolute; inset:0; z-index:1; pointer-events:none;
+  background:linear-gradient(100deg,rgba(232,232,234,.98) 0%,rgba(232,232,234,.9) 36%,rgba(232,232,234,.55) 64%,rgba(232,232,234,.72) 100%),
+             linear-gradient(180deg,rgba(232,232,234,.5) 0%,transparent 22%,transparent 64%,var(--paper) 100%); }
+#hero .inner{ position:relative; z-index:2; display:grid; grid-template-columns:1.05fr .95fr; gap:clamp(28px,4vw,64px); align-items:center; }
+.hero-copy h1{ font-size:clamp(2.7rem,6vw,5rem); margin:.3rem 0 0; }
+.hero-copy h1 em{ font-style:italic; color:var(--mist); }
+.hero-sub{ color:var(--mist); font-size:clamp(1.02rem,1.6vw,1.2rem); max-width:48ch; margin:1.3rem 0 0; }
+.hero-sub b{ color:var(--ink); font-weight:600; }
+.reviews{ display:flex; align-items:center; gap:.7rem; margin-top:1.6rem; flex-wrap:wrap; }
+.reviews .stars{ color:var(--gold); font-size:1.35rem; letter-spacing:.12em; line-height:1; white-space:nowrap; }
+.reviews .reviews-text{ color:var(--mist); font-size:1rem; }
+.reviews .reviews-text strong{ color:var(--ink); font-weight:700; }
+.trust{ display:flex; flex-wrap:wrap; gap:.6rem 1.4rem; margin:1.4rem 0 0; padding:0; list-style:none; }
+.trust li{ display:flex; align-items:center; gap:.5rem; font-size:.92rem; color:var(--ink-2); font-weight:500; }
+.check{ flex:0 0 auto; width:20px; height:20px; border-radius:50%; display:grid; place-items:center; background:#141416; border:1px solid #141416; color:#fff; }
+.check svg{ width:11px; height:11px; }
+.hero-cta{ display:flex; flex-wrap:wrap; gap:.8rem; margin:2rem 0 0; align-items:center; }
+.hero-badges{ display:flex; align-items:center; gap:1.1rem; margin:1.4rem 0 0; flex-wrap:wrap; }
+.hero-badges img{ height:96px; width:auto; filter:drop-shadow(0 14px 24px rgba(20,20,22,.14)); }
+.hero-badges .yrs{ display:flex; align-items:center; gap:.7rem; padding:.7rem 1.2rem .7rem 1rem; border-radius:999px; background:rgba(255,255,255,.7); border:1px solid var(--glass-edge-2); }
+.hero-badges .yrs b{ font-family:"Fraunces",serif; font-weight:500; font-size:2rem; line-height:1; color:var(--ink); }
+.hero-badges .yrs span{ font-size:.85rem; color:var(--mist); line-height:1.2; max-width:9ch; }
+
+/* offer card */
+.offer-card{ padding:clamp(1.5rem,3vw,2.2rem); border-radius:var(--r-l); }
+.offer-card .tag{ display:inline-flex; align-items:center; gap:.5rem; font-size:.7rem; font-weight:700; letter-spacing:.18em; text-transform:uppercase; color:#fff;
+  background:linear-gradient(180deg,#2b2b30,#141416); padding:.5em .95em; border-radius:999px; }
+.offer-card h3{ font-size:1.6rem; margin:1rem 0 .3rem; }
+.offer-card .price{ font-family:"Fraunces",serif; font-size:clamp(2.6rem,5vw,3.4rem); line-height:1; color:var(--ink); margin:.2rem 0 .1rem; letter-spacing:-.02em; }
+.offer-card .was{ color:var(--mist); font-size:.95rem; margin:0; }
+.ticks{ list-style:none; padding:0; margin:1.3rem 0 0; display:grid; gap:.7rem; }
+.ticks li{ display:flex; gap:.7rem; align-items:flex-start; color:var(--ink-2); font-size:.98rem; }
+.ticks .check{ margin-top:2px; }
+.offer-card .mention{ margin:1.2rem 0 0; padding:.9rem 1rem; border-radius:var(--r-s); background:rgba(20,20,22,.05); border:1px dashed var(--glass-edge-2); font-size:.9rem; color:var(--ink-2); }
+.offer-card .mention b{ color:var(--ink); }
+.offer-card .fine{ color:var(--mist-dim); font-size:.76rem; line-height:1.55; margin:1.1rem 0 0; }
+.offer-card .btn{ width:100%; margin-top:1.3rem; }
+
+/* status pill */
+.status{ display:inline-flex; align-items:center; gap:.55rem; font-size:.84rem; font-weight:600; color:var(--ink);
+  padding:.5em .95em .5em .8em; border-radius:999px; background:rgba(255,255,255,.7); border:1px solid var(--glass-edge-2); }
+.status .dot{ width:9px; height:9px; border-radius:50%; background:var(--mist-dim); }
+.status.is-open .dot{ background:var(--open); animation:ping 2s ease-out infinite; }
+.status.is-closed .dot{ background:var(--closed); }
+@keyframes ping{ 0%{ box-shadow:0 0 0 0 rgba(22,163,74,.5);} 100%{ box-shadow:0 0 0 9px rgba(22,163,74,0);} }
+
+/* ---------- Book ---------- */
+#book{ padding-top:clamp(40px,6vw,80px); }
+.book-head{ display:flex; flex-wrap:wrap; align-items:flex-end; justify-content:space-between; gap:1.2rem; margin-bottom:1.6rem; }
+.book-head .side{ display:flex; flex-wrap:wrap; gap:.7rem; align-items:center; }
+.book-frame{ padding:12px; border-radius:var(--r-l); overflow:hidden; }
+.book-frame iframe{ display:block; width:100%; height:760px; border:0; border-radius:calc(var(--r-l) - 10px); background:#fff; position:relative; z-index:1; }
+.book-alt{ margin-top:1.1rem; color:var(--mist); font-size:.9rem; text-align:center; }
+.book-alt a{ color:var(--ink); font-weight:600; }
+.mention-bar{ margin:0 0 1.4rem; padding:1rem 1.2rem; border-radius:var(--r-s); display:flex; gap:.9rem; align-items:center; font-size:.95rem; color:var(--ink-2); }
+.mention-bar b{ color:var(--ink); }
+.mention-bar .ico{ flex:0 0 auto; width:38px; height:38px; border-radius:11px; display:grid; place-items:center; color:#fff; background:#141416; }
+.mention-bar .ico svg{ width:18px; height:18px; }
+
+/* ---------- Media + why ---------- */
+.media-grid{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,4vw,60px); align-items:center; }
+.frame{ padding:12px; border-radius:var(--r-l); }
+.frame img{ border-radius:calc(var(--r-l) - 10px); width:100%; height:100%; object-fit:cover; }
+.why-grid{ display:grid; grid-template-columns:repeat(2,1fr); gap:1.1rem; margin-top:2rem; }
+.why-card{ padding:1.6rem 1.5rem; border-radius:var(--r); }
+.why-card .ico{ width:42px; height:42px; border-radius:12px; display:grid; place-items:center; color:#fff; background:#141416; margin-bottom:1rem; }
+.why-card .ico svg{ width:21px; height:21px; }
+.why-card h3{ font-size:1.25rem; margin-bottom:.4rem; }
+.why-card p{ color:var(--mist); font-size:.93rem; margin:0; line-height:1.55; }
+.stat-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:1rem; margin-top:2rem; }
+.stat{ padding:1.3rem 1.2rem; border-radius:var(--r); text-align:center; }
+.stat b{ display:block; font-family:"Fraunces",serif; font-weight:500; font-size:clamp(2rem,4vw,2.8rem); color:var(--ink); line-height:1; }
+.stat span{ display:block; color:var(--mist); font-size:.84rem; margin-top:.45rem; }
+
+/* ---------- Video facades ---------- */
+.vfacade{ position:relative; overflow:hidden; cursor:pointer; background:#0d0d0f; border-radius:var(--r); border:1px solid var(--glass-edge); box-shadow:0 24px 64px -28px rgba(20,20,22,.4); }
+.vfacade--wide{ aspect-ratio:16/9; }
+.vgrid{ display:grid; grid-template-columns:repeat(3,minmax(0,300px)); justify-content:center; gap:1.3rem; margin-top:2.2rem; }
+.vgrid .vfacade{ aspect-ratio:9/16; }
+.vfacade .vposter{ position:absolute; inset:0; background-size:cover; background-position:center; background-color:#e9e9ec; filter:saturate(.95); transition:transform .5s var(--ease),filter .3s; }
+.vfacade:hover .vposter{ transform:scale(1.04); filter:saturate(.95) brightness(.92); }
+.vfacade .vplay{ position:absolute; inset:0; margin:auto; width:74px; height:74px; border-radius:50%; background:rgba(255,255,255,.96); display:grid; place-items:center; color:#141416; z-index:2;
+  box-shadow:0 12px 32px -8px rgba(0,0,0,.45); transition:transform .25s var(--ease); }
+.vfacade:hover .vplay{ transform:scale(1.08); }
+.vfacade .vplay svg{ width:29px; height:29px; margin-left:4px; }
+.vfacade .vcap{ position:absolute; left:0; right:0; bottom:0; z-index:2; padding:1.6rem 1.15rem .9rem; color:#fff; font-size:.94rem; font-weight:600; line-height:1.32;
+  background:linear-gradient(to top,rgba(0,0,0,.7),rgba(0,0,0,0)); }
+.vfacade .vcap:empty{ display:none; }
+.vfacade iframe{ position:absolute; inset:0; width:100%; height:100%; border:0; display:block; z-index:3; }
+.vfacade.playing .vposter,.vfacade.playing .vplay,.vfacade.playing .vcap{ opacity:0; pointer-events:none; }
+.video-wrap{ margin-top:2.2rem; padding:12px; border-radius:var(--r-l); }
+.video-wrap .vfacade{ border-radius:calc(var(--r-l) - 10px); box-shadow:none; border:0; }
+
+/* ---------- Team ---------- */
+.team-shot{ margin-top:2rem; padding:0; border-radius:var(--r-l); background:transparent; border:0; box-shadow:none; }
+.team-shot img{ width:100%; border-radius:var(--r-l); box-shadow:0 30px 70px -40px rgba(20,20,22,.3); }
+.team-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.1rem; margin-top:1.3rem; }
+.doc{ padding:1.5rem 1.5rem; border-radius:var(--r); }
+.doc .role{ color:var(--mist); font-size:.72rem; font-weight:700; letter-spacing:.16em; text-transform:uppercase; }
+.doc h3{ font-size:1.3rem; margin:.5rem 0 .55rem; }
+.doc p{ color:var(--mist); font-size:.9rem; margin:0; line-height:1.5; }
+.doc .creds{ list-style:none; padding:0; margin:.8rem 0 0; display:flex; flex-wrap:wrap; gap:.45rem; }
+.doc .creds li{ font-size:.76rem; color:var(--ink); padding:.4em .8em; border-radius:999px; background:rgba(20,20,22,.05); border:1px solid var(--glass-edge-2); }
+.team-pair{ display:grid; grid-template-columns:1fr 1fr; gap:1.1rem; margin-top:1.1rem; }
+.team-pair .frame img{ aspect-ratio:4/3; }
+.brand-row{ display:flex; flex-wrap:wrap; align-items:center; gap:.8rem 1.2rem; margin-top:1.4rem; }
+.brand-row img{ height:96px; width:auto; filter:drop-shadow(0 14px 24px rgba(20,20,22,.14)); }
+
+/* ---------- Services ---------- */
+.svc-grid{ display:grid; grid-template-columns:repeat(4,1fr); gap:1.1rem; margin-top:2rem; }
+.svc{ padding:1.6rem 1.4rem; border-radius:var(--r); text-decoration:none; display:flex; flex-direction:column; transition:transform .3s var(--ease),border-color .3s; }
+.svc:hover{ transform:translateY(-4px); border-color:var(--ink); }
+.svc .ico{ width:44px; height:44px; border-radius:12px; display:grid; place-items:center; color:#fff; background:#141416; margin-bottom:1.1rem; }
+.svc .ico svg{ width:22px; height:22px; }
+.svc h3{ font-size:1.25rem; margin-bottom:.5rem; }
+.svc p{ color:var(--mist); font-size:.9rem; margin:0 0 1rem; line-height:1.5; flex:1; }
+.svc .more{ font-size:.86rem; font-weight:600; color:var(--ink); display:inline-flex; align-items:center; gap:.4rem; }
+.svc .more svg{ width:14px; height:14px; }
+
+/* ---------- Health funds ---------- */
+.funds-grid{ display:grid; grid-template-columns:.8fr 1.2fr; gap:clamp(28px,4vw,56px); align-items:center; }
+.fund-logos{ display:grid; grid-template-columns:repeat(2,1fr); gap:1rem; }
+.fund-logos img{ width:100%; height:auto; filter:drop-shadow(0 14px 24px rgba(20,20,22,.14)); }
+.fund-logos .all{ display:grid; place-items:center; text-align:center; padding:1.2rem; border-radius:999px; color:var(--ink); font-weight:600; font-size:1rem; line-height:1.3; min-height:90px; }
+.hicaps-note{ margin-top:1.4rem; padding:1.1rem 1.3rem; border-radius:var(--r-s); display:flex; gap:.9rem; align-items:flex-start; }
+.hicaps-note .ico{ flex:0 0 auto; width:38px; height:38px; border-radius:11px; display:grid; place-items:center; color:#fff; background:#141416; }
+.hicaps-note .ico svg{ width:19px; height:19px; }
+.hicaps-note b{ color:var(--ink); display:block; margin-bottom:.15rem; }
+.hicaps-note p{ color:var(--mist); font-size:.9rem; margin:0; }
+
+/* ---------- Payment plans ---------- */
+.pay-grid{ display:grid; grid-template-columns:repeat(3,1fr); gap:1.1rem; margin-top:2rem; }
+.pay{ padding:1.5rem 1.5rem; border-radius:var(--r); }
+.pay .flag{ display:inline-block; font-size:.68rem; font-weight:700; letter-spacing:.16em; text-transform:uppercase; color:#fff; background:linear-gradient(180deg,#2b2b30,#141416); padding:.45em .85em; border-radius:999px; }
+.pay h3{ font-size:1.2rem; margin:.9rem 0 .4rem; }
+.pay p{ color:var(--mist); font-size:.9rem; margin:0; line-height:1.5; }
+.pay-foot{ margin-top:1.4rem; color:var(--mist); font-size:.95rem; text-align:center; }
+
+/* ---------- Visit ---------- */
+.visit-grid{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(28px,4vw,56px); align-items:stretch; }
+.visit-card{ padding:clamp(1.4rem,3vw,2rem); border-radius:var(--r-l); }
+.hours{ list-style:none; padding:0; margin:1.2rem 0 0; display:grid; gap:.35rem; }
+.hours li{ display:flex; justify-content:space-between; gap:1rem; padding:.5rem 0; border-bottom:1px solid var(--line); font-size:.96rem; color:var(--mist); }
+.hours li b{ color:var(--ink); font-weight:600; }
+.hours li.today{ color:var(--ink); }
+.hours li.today span::after{ content:"today"; margin-left:.5rem; font-size:.66rem; letter-spacing:.14em; text-transform:uppercase; color:var(--open); vertical-align:middle; font-weight:700; }
+.visit-block{ margin-top:1.3rem; }
+.visit-block b{ color:var(--ink); display:block; font-size:.95rem; margin-bottom:.2rem; }
+.visit-block p{ color:var(--mist); font-size:.92rem; margin:0; line-height:1.55; }
+.visit-block a{ color:var(--ink); text-decoration:none; font-weight:600; }
+.map-frame{ padding:12px; border-radius:var(--r-l); min-height:420px; display:flex; }
+.map-frame iframe{ flex:1; width:100%; min-height:400px; border:0; border-radius:calc(var(--r-l) - 10px); background:#e9e9ec; }
+
+/* ---------- Final CTA (the one dark band) ---------- */
+.final{ text-align:center; background:linear-gradient(160deg,#1c1c1f 0%,#141416 60%,#0f0f10 100%); color:#d7d7dc; }
+.final .eyebrow{ color:#fff; } .final .eyebrow::before{ background:linear-gradient(90deg,#fff,transparent); }
+.final h2.title{ color:#fff; } .final .title em{ color:#b6b6bc; }
+.final .lede{ color:#b6b6bc; }
+.final .btn-primary{ color:#141416; background:linear-gradient(180deg,#ffffff,#ededee); border-color:rgba(0,0,0,.06); box-shadow:0 12px 28px -10px rgba(0,0,0,.5); }
+.final .btn-ghost{ color:#fff; background:rgba(255,255,255,.08); border-color:rgba(255,255,255,.3); }
+.final .btn-row{ display:flex; flex-wrap:wrap; justify-content:center; gap:.8rem; margin-top:2rem; }
+
+/* ---------- Footer ---------- */
+.footer{ padding:clamp(40px,6vh,72px) clamp(20px,5vw,48px) calc(3rem + var(--dock-h)); background:#0f0f10; color:#b6b6bc; }
+.footer-inner{ max-width:var(--maxw); margin:0 auto; }
+.footer-top{ display:flex; flex-wrap:wrap; justify-content:space-between; gap:2rem; align-items:flex-start; }
+.footer-brand img{ height:30px; }
+.footer-brand span{ display:block; color:#8a8a91; font-size:.85rem; margin-top:.6rem; }
+.footer-contact{ color:#b6b6bc; font-size:.95rem; line-height:1.7; }
+.footer-contact a{ color:#fff; text-decoration:none; font-weight:600; }
+.legal{ margin-top:2.4rem; padding-top:2rem; border-top:1px solid rgba(255,255,255,.08); }
+.legal p{ font-size:.76rem; color:#8a8a91; line-height:1.65; margin:0 0 .8rem; max-width:100ch; }
+.copy{ margin-top:1.6rem; font-size:.78rem; color:#8a8a91; }
+.copy a{ color:#b6b6bc; }
+
+/* ---------- Mobile dock ---------- */
+.dock{ display:none; }
+
+/* ---------- Reveal ---------- */
+.reveal{ opacity:0; transform:translateY(16px); transition:opacity .7s var(--ease),transform .7s var(--ease); }
+.reveal.in{ opacity:1; transform:none; }
+
+/* ============================ RESPONSIVE ============================ */
+@media (max-width:1080px){
+  .svc-grid{ grid-template-columns:repeat(2,1fr); }
+  .team-grid{ grid-template-columns:repeat(2,1fr); }
+}
+@media (max-width:880px){
+  #hero .inner,.media-grid,.funds-grid,.visit-grid,.team-pair{ grid-template-columns:1fr; gap:1.6rem; }
+  .why-grid,.pay-grid,.team-grid,.svc-grid{ grid-template-columns:1fr; }
+  .stat-row{ grid-template-columns:repeat(3,1fr); gap:.6rem; }
+  .stat{ padding:1rem .6rem; } .stat b{ font-size:1.7rem; } .stat span{ font-size:.72rem; }
+  .vgrid{ grid-template-columns:min(80vw,320px); gap:1.4rem; }
+  .hero-copy h1{ font-size:clamp(2.3rem,10vw,3.1rem); }
+  .hero-veil{ background:linear-gradient(180deg,rgba(232,232,234,.92) 0%,rgba(232,232,234,.85) 45%,var(--paper) 100%); }
+  .hero-cta{ display:none; }
+  .hero-badges img,.brand-row img{ height:80px; }
+  .book-frame iframe{ height:720px; }
+  .topbar .btn-primary{ display:none; }
+  .fund-logos{ grid-template-columns:repeat(2,1fr); gap:.7rem; }
+  .footer{ padding-bottom:calc(2rem + var(--dock-h) + env(safe-area-inset-bottom)); }
+  .dock{ display:flex; position:fixed; left:0; right:0; bottom:0; z-index:55; gap:.7rem; padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+    background:linear-gradient(0deg,rgba(236,236,238,.96),rgba(236,236,238,.75)); -webkit-backdrop-filter:blur(18px) saturate(140%); backdrop-filter:blur(18px) saturate(140%); border-top:1px solid var(--line); }
+  .dock .btn{ flex:1; padding:1em; }
+  .reveal{ opacity:1; transform:none; }
+}
+@media (prefers-reduced-motion:reduce){
+  *{ scroll-behavior:auto !important; }
+  .orb,.status .dot{ animation:none !important; }
+  .reveal{ opacity:1; transform:none; transition:none; }
+}
+</style>
+</head>
+<body>
+
+<div class="bg" aria-hidden="true"><div class="orb a"></div><div class="orb b"></div><div class="orb c"></div></div>
+
+<!-- Top bar -->
+<header class="topbar">
+  <a class="brand" href="#hero" aria-label="Artarmon Dentists"><img src="logo.png" alt="Artarmon Dentists"></a>
+  <div class="topbar-actions">
+    <a class="btn btn-ghost" href="tel:+61250239112" aria-label="Call Artarmon Dentists">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      Call us
+    </a>
+    <a class="btn btn-primary" href="#book">Book now</a>
+  </div>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section id="hero" class="section">
+  <div class="hero-photo" aria-hidden="true"></div>
+  <div class="hero-veil" aria-hidden="true"></div>
+  <div class="inner">
+    <div class="hero-copy">
+      <div class="eyebrow">Family owned, new patients welcome</div>
+      <h1>Your trusted dentist in Artarmon for over <em>40 years</em></h1>
+      <p class="hero-sub">Gentle, thorough care for every generation, right opposite Artarmon station. <b>Claim on the spot with your health fund through HICAPS</b>, and all health funds are accepted.</p>
+      <div class="reviews">
+        <span class="stars" aria-hidden="true">★★★★★</span>
+        <span class="reviews-text"><strong>5.0</strong> from <strong>160+</strong> Google reviews</span>
+      </div>
+      <div class="hero-badges">
+        <img src="platinum-invisalign.webp" alt="Platinum Invisalign Provider 2025">
+        <div class="yrs"><b>40+</b><span>years caring for Artarmon</span></div>
+      </div>
+      <ul class="trust">
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>All health funds accepted</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>HICAPS on the spot</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Interest-free payment plans</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Opposite Artarmon station</li>
+      </ul>
+      <div class="hero-cta">
+        <a class="btn btn-primary btn-lg" href="#book">Book now</a>
+        <a class="btn btn-ghost btn-lg" href="tel:+61250239112">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Call us
+        </a>
+        <span class="status" data-status><span class="dot"></span><span class="txt">Checking hours</span></span>
+      </div>
+    </div>
+
+    <aside class="offer-card glass">
+      <span class="tag">What's included</span>
+      <h3>New Patient Special</h3>
+      <div class="price">$220</div>
+      <p class="was">Exam plus scale and clean package</p>
+      <ul class="ticks">
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Comprehensive check-up and oral cancer screening</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>X-rays</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Professional clean and polish</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Fluoride treatment</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Personalised treatment plan</li>
+        <li><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span>Bonus hygiene pack to take home</li>
+      </ul>
+      <div class="mention"><b>Mention the New Patient Special</b> when you book online or call to take advantage of the offer.</div>
+      <a class="btn btn-primary btn-lg" href="#book">Book your visit</a>
+      <p class="fine">Not available with any other promotion and not redeemable for cash. Services provided where suitable and appropriate. Any additional treatment is discussed and quoted before it goes ahead. Subject to availability. Prices subject to change.</p>
+    </aside>
+  </div>
+</section>
+
+<!-- ===================== BOOK (Zavy360) ===================== -->
+<section id="book" class="section">
+  <div class="inner">
+    <div class="book-head">
+      <div>
+        <div class="eyebrow">Book online</div>
+        <h2 class="title">Pick a time that <em>suits you</em></h2>
+        <p class="lede">Choose "New patient" below, pick your dentist and a time, and you are booked. It takes less than a minute. All health funds accepted, with HICAPS claiming on the spot.</p>
+      </div>
+      <div class="side">
+        <span class="status" data-status><span class="dot"></span><span class="txt">Checking hours</span></span>
+        <a class="btn btn-ghost" href="tel:+61250239112">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          Prefer to call?
+        </a>
+      </div>
+    </div>
+    <div class="mention-bar glass">
+      <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l1.8 5.2L19 9l-5.2 1.8L12 16l-1.8-5.2L5 9l5.2-1.8z"/></svg></div>
+      <div><b>Booking the New Patient Special?</b> Add "New Patient Special" in the notes when you book online, or mention it when you call, so your $220 exam, scale and clean is applied.</div>
+    </div>
+    <div class="book-frame glass">
+      <iframe
+        src="https://bookings.zavy360.com/booking/artarmondentists/locations/eec1a18f-a17a-4c65-993a-9d08390955c8/patient-type"
+        title="Book an appointment at Artarmon Dentists"
+        loading="lazy"
+        scrolling="yes"
+        allowtransparency="true"></iframe>
+    </div>
+    <p class="book-alt">Booking widget not loading? <a href="https://bookings.zavy360.com/booking/artarmondentists/locations/eec1a18f-a17a-4c65-993a-9d08390955c8/patient-type" target="_blank" rel="noopener">Open it in a new tab</a> or <a href="tel:+61250239112">call us</a>.</p>
+  </div>
+</section>
+
+<!-- ===================== WHY ===================== -->
+<section id="why" class="section">
+  <div class="inner media-grid">
+    <div class="reveal">
+      <div class="eyebrow">Why Artarmon Dentists</div>
+      <h2 class="title">Gentle, thorough care for <em>over 40 years</em></h2>
+      <p class="lede">Family owned since day one. Dr Nick Mehta and Dr Radhika Bhatla have led the practice since 2013, pairing contemporary technology with a conservative treatment philosophy: we take the time to explain every option so your care is personalised and transparent.</p>
+      <div class="stat-row">
+        <div class="stat glass"><b>40+</b><span>Years in Artarmon</span></div>
+        <div class="stat glass"><b>5.0</b><span>Google rating</span></div>
+        <div class="stat glass"><b>160+</b><span>Five-star reviews</span></div>
+      </div>
+      <div class="brand-row"><img src="platinum-invisalign.webp" alt="Platinum Invisalign Provider 2025" loading="lazy"></div>
+    </div>
+    <div class="frame glass reveal"><img src="scan.webp" alt="Digital scanning at Artarmon Dentists" loading="lazy"></div>
+  </div>
+  <div class="inner">
+    <div class="why-grid">
+      <div class="why-card glass reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5 9 5 12 8 12 8s3-3 5.5-3C21 5 23.5 8.5 21.5 12.5 19 16.65 12 21 12 21z"/></svg></div>
+        <h3>Passion and expertise</h3>
+        <p>Your comfort and preferences come first. No pressure for unnecessary treatment, just a clear focus on your smile and long-term oral health.</p>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 3 2 5 2 7h10c0-2 2-4 2-7a7 7 0 0 0-7-7z"/><path d="M9 21h6"/></svg></div>
+        <h3>State-of-the-art care</h3>
+        <p>The latest dental technology for precise, comfortable and efficient treatment, from digital scanning to in-chair whitening.</p>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><path d="M9 9h.01M15 9h.01"/></svg></div>
+        <h3>Gentle and friendly team</h3>
+        <p>We understand dental anxiety and take extra care to keep every visit calm and comfortable. Our team is with you every step of the way.</p>
+      </div>
+      <div class="why-card glass reveal">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg></div>
+        <h3>Affordable excellence</h3>
+        <p>Transparent pricing, flexible interest-free payment plans and instant claiming with every major health fund.</p>
+      </div>
+    </div>
+
+    <div class="video-wrap glass reveal">
+      <div class="vfacade vfacade--wide" data-vimeo="1189713204" tabindex="0" role="button" aria-label="Play: inside Artarmon Dentists">
+        <div class="vposter" style="background-image:url('reception.webp')"></div>
+        <div class="vplay"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+        <div class="vcap" data-locked>Take a look inside Artarmon Dentists</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== TEAM ===================== -->
+<section id="team" class="section">
+  <div class="inner">
+    <div class="center reveal">
+      <div class="eyebrow">Meet the team</div>
+      <h2 class="title">The experienced team behind <em>every smile</em></h2>
+      <p class="lede">Decades of combined expertise, a passion for modern dentistry and genuine care for every patient who walks through our door.</p>
+    </div>
+    <div class="team-shot glass reveal"><img src="team.webp" alt="The Artarmon Dentists team" loading="lazy"></div>
+
+    <div class="team-grid">
+      <div class="doc glass reveal">
+        <div class="role">Principal Dentist</div>
+        <h3>Dr Nick Mehta</h3>
+        <p>Leads implant and full-arch dentistry. Treating patients in Artarmon since 2013.</p>
+        <ul class="creds"><li>BDS (Hons)</li><li>PG Dip Implants (UCLA)</li></ul>
+      </div>
+      <div class="doc glass reveal">
+        <div class="role">Cosmetic &amp; General Dentist</div>
+        <h3>Dr Radhika Bhatla</h3>
+        <p>Cosmetic dentistry, Invisalign and digital orthodontics for adults and children.</p>
+        <ul class="creds"><li>BDS (ADC SYD)</li><li>PGDip Digital Orthodontics</li><li>Platinum Invisalign Provider</li></ul>
+      </div>
+      <div class="doc glass reveal">
+        <div class="role">Dentist</div>
+        <h3>Dr John Woo</h3>
+        <p>General and family dentistry with a gentle, patient-first approach.</p>
+      </div>
+      <div class="doc glass reveal">
+        <div class="role">Dentist</div>
+        <h3>Dr Saransh Rola</h3>
+        <p>General and restorative dentistry for patients of all ages.</p>
+      </div>
+      <div class="doc glass reveal">
+        <div class="role">Oral Health Therapist</div>
+        <h3>Jash Thakkar</h3>
+        <p>Preventive care, cleans and hygiene. More than ten years in dentistry.</p>
+        <ul class="creds"><li>BOH, University of Sydney</li></ul>
+      </div>
+      <div class="doc glass reveal">
+        <div class="role">Oral Health Therapist</div>
+        <h3>Puja Sarker</h3>
+        <p>Preventive care, cleans and patient education for the whole family.</p>
+      </div>
+    </div>
+
+    <div class="team-pair">
+      <div class="frame glass reveal"><img src="nick.webp" alt="Dr Nick Mehta explaining treatment to a patient" loading="lazy"></div>
+      <div class="frame glass reveal"><img src="tv.webp" alt="Inside the Artarmon Dentists practice" loading="lazy"></div>
+    </div>
+
+    <div class="vgrid">
+      <div class="vfacade glass reveal" data-vimeo="1211651089" tabindex="0" role="button" aria-label="Play video">
+        <div class="vposter"></div>
+        <div class="vplay"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="vfacade glass reveal" data-vimeo="1211652618" tabindex="0" role="button" aria-label="Play video">
+        <div class="vposter"></div>
+        <div class="vplay"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+      <div class="vfacade glass reveal" data-vimeo="1211654567" tabindex="0" role="button" aria-label="Play video">
+        <div class="vposter"></div>
+        <div class="vplay"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== SERVICES ===================== -->
+<section id="services" class="section">
+  <div class="inner">
+    <div class="center reveal">
+      <div class="eyebrow">What we do</div>
+      <h2 class="title">Complete care, all <em>under one roof</em></h2>
+      <p class="lede">From everyday check-ups to cosmetic and implant dentistry, every smile in the family is looked after here.</p>
+    </div>
+    <div class="svc-grid">
+      <a class="svc glass reveal" href="https://www.artarmondentists.com/scale-clean/" target="_blank" rel="noopener">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a7 7 0 0 0-7 7c0 3 2 5 2 7h10c0-2 2-4 2-7a7 7 0 0 0-7-7z"/><path d="M9 21h6"/></svg></div>
+        <h3>General dentistry</h3>
+        <p>Check-ups, scale and clean, fillings, crowns, root canal, wisdom teeth and emergency care.</p>
+        <span class="more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="svc glass reveal" href="https://www.artarmondentists.com/teeth-whitening/" target="_blank" rel="noopener">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8z"/></svg></div>
+        <h3>Cosmetic dentistry</h3>
+        <p>Teeth whitening, porcelain veneers and personalised smile design.</p>
+        <span class="more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="svc glass reveal" href="https://www.artarmondentists.com/clear-aligners/" target="_blank" rel="noopener">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12c0-4 3-7 8-7s8 3 8 7-3 7-8 7-8-3-8-7z"/><path d="M8 12h8"/></svg></div>
+        <h3>Orthodontics</h3>
+        <p>Invisalign and clear aligners, braces and early treatment for children.</p>
+        <span class="more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+      <a class="svc glass reveal" href="https://www.artarmondentists.com/dental-implants/" target="_blank" rel="noopener">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3h8l-1 7H9z"/><path d="M10 10l1 11h2l1-11"/></svg></div>
+        <h3>Implant dentistry</h3>
+        <p>Single implants through to full-arch All-on-X, designed to look and feel natural.</p>
+        <span class="more">Learn more <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== HEALTH FUNDS ===================== -->
+<section id="funds" class="section">
+  <div class="inner funds-grid">
+    <div class="reveal">
+      <div class="eyebrow">Health funds</div>
+      <h2 class="title">All health funds accepted, claimed <em>on the spot</em></h2>
+      <p class="lede">Bring your health fund card and claim your rebate instantly with HICAPS. You only ever pay the gap, with nothing to claim back later.</p>
+      <div class="hicaps-note glass">
+        <div class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+        <div><b>HICAPS instant claiming</b><p>Swipe your card at reception and your rebate is processed before you leave.</p></div>
+      </div>
+    </div>
+    <div class="fund-logos reveal">
+      <img src="fund-hcf.webp" alt="HCF" loading="lazy">
+      <img src="fund-bupa.webp" alt="Bupa" loading="lazy">
+      <img src="fund-medibank.webp" alt="Medibank" loading="lazy">
+      <img src="fund-nib.webp" alt="nib" loading="lazy">
+      <img src="fund-cbhs.webp" alt="CBHS" loading="lazy">
+      <img src="fund-hicaps.webp" alt="HICAPS" loading="lazy">
+      <div class="all glass" style="grid-column:1 / -1">Plus every other major Australian health fund</div>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== PAYMENT PLANS ===================== -->
+<section id="payment" class="section">
+  <div class="inner">
+    <div class="center reveal">
+      <div class="eyebrow">Payment plans</div>
+      <h2 class="title">Care that fits <em>your budget</em></h2>
+      <p class="lede">Interest-free options and flexible plans so you can look after your smile without the stress. We will help you choose what suits you at your visit.</p>
+    </div>
+    <div class="pay-grid">
+      <div class="pay glass reveal"><span class="flag">In-house</span><h3>Interest-free plans</h3><p>Spread the cost of major treatment across manageable payments, with no interest charged.</p></div>
+      <div class="pay glass reveal"><span class="flag">SuperCare</span><h3>Pay with your super</h3><p>Access your superannuation for eligible dental treatment. 99% approval, no approval no fee.</p></div>
+      <div class="pay glass reveal"><span class="flag">humm</span><h3>Pay over 12 to 24 months</h3><p>Fortnightly, interest-free repayments spread across up to two years.</p></div>
+      <div class="pay glass reveal"><span class="flag">HICAPS</span><h3>Claim on the spot</h3><p>Use your health fund card and claim your rebate instantly, then only pay the gap.</p></div>
+      <div class="pay glass reveal"><span class="flag">Afterpay</span><h3>Pay in 4</h3><p>Split your treatment into four fortnightly payments, interest-free.</p></div>
+      <div class="pay glass reveal"><span class="flag">Zip</span><h3>Pay later</h3><p>Nothing to pay to sign up, with simple fortnightly, interest-free repayments.</p></div>
+    </div>
+    <p class="pay-foot">All major credit cards accepted, including American Express, with no surcharge.</p>
+  </div>
+</section>
+
+<!-- ===================== VISIT ===================== -->
+<section id="visit" class="section">
+  <div class="inner visit-grid">
+    <div class="visit-card glass reveal">
+      <div class="eyebrow">Visit us</div>
+      <h2 class="title">Opposite Artarmon <em>station</em></h2>
+      <div style="margin-top:1.2rem"><span class="status" data-status><span class="dot"></span><span class="txt">Checking hours</span></span></div>
+      <ul class="hours" data-hours>
+        <li data-day="1"><span>Monday</span><b>8:00am – 6:00pm</b></li>
+        <li data-day="2"><span>Tuesday</span><b>8:00am – 6:00pm</b></li>
+        <li data-day="3"><span>Wednesday</span><b>8:00am – 6:00pm</b></li>
+        <li data-day="4"><span>Thursday</span><b>8:00am – 7:00pm</b></li>
+        <li data-day="5"><span>Friday</span><b>8:00am – 3:00pm</b></li>
+        <li data-day="6"><span>Saturday</span><b>Closed</b></li>
+        <li data-day="0"><span>Sunday</span><b>Closed</b></li>
+      </ul>
+      <div class="visit-block">
+        <b>Address</b>
+        <p><a href="https://maps.app.goo.gl/Bv1ysTtSitVbJX6E8" target="_blank" rel="noopener">Shop 3, 110–114 Hampden Rd, Artarmon NSW 2064</a></p>
+      </div>
+      <div class="visit-block">
+        <b>Getting here</b>
+        <p>Directly across from Artarmon train station. Take the Hampden Road exit. 2P parking in the council car park behind the practice on Hampden Lane, plus 4P parking on Broughton and Francis streets.</p>
+      </div>
+      <div class="hero-cta" style="margin-top:1.6rem">
+        <a class="btn btn-primary" href="#book">Book now</a>
+        <a class="btn btn-ghost" href="tel:+61250239112">Call us</a>
+      </div>
+    </div>
+    <div class="map-frame glass reveal">
+      <iframe title="Map to Artarmon Dentists" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        src="https://maps.google.com/maps?q=Artarmon%20Dentists%2C%20Shop%203%2C%20110%E2%80%93114%20Hampden%20Rd%2C%20Artarmon%20NSW%202064&t=m&z=16&output=embed&iwloc=near"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FINAL CTA ===================== -->
+<section class="section final">
+  <div class="inner reveal">
+    <div class="eyebrow" style="justify-content:center">Ready when you are</div>
+    <h2 class="title" style="margin:0 auto">The dentist Artarmon has trusted for <em>over 40 years</em></h2>
+    <p class="lede" style="margin:1.1rem auto 0">Claim on the spot with your health fund through HICAPS. All health funds accepted. Mention the New Patient Special when you book or call.</p>
+    <div class="btn-row">
+      <a class="btn btn-primary btn-lg" href="#book">Book your visit</a>
+      <a class="btn btn-ghost btn-lg" href="tel:+61250239112">Call us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===================== FOOTER ===================== -->
+<footer class="footer">
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="logo.png" alt="Artarmon Dentists">
+        <span>Dentistry reimagined. Family owned and trusted in Artarmon for over 40 years. Mention the New Patient Special when you book.</span>
+      </div>
+      <div class="footer-contact">
+        Shop 3, 110–114 Hampden Rd, Artarmon NSW 2064<br>
+        <a href="tel:+61250239112">Call us</a> · <a href="#book">Book online</a><br>
+        Mon–Wed 8am–6pm · Thu 8am–7pm · Fri 8am–3pm
+      </div>
+    </div>
+    <div class="legal">
+      <p>New Patient Special: $220 exam plus scale and clean package. Each promotion cannot be used in conjunction with any other promotion and is not substitutable or redeemable for cash. To redeem, the patient must mention the promotion when booking the appointment. Services will only be provided when suitable and appropriate. Additional treatment may be recommended at an additional cost; any additional treatment and cost will be discussed with you before being carried out. Promotions are subject to appointment availability. Prices are subject to change.</p>
+      <p>Any surgical or invasive procedure carries risks. Before proceeding, you should seek a second opinion from an appropriately qualified health practitioner.</p>
+    </div>
+    <p class="copy">© <span id="yr"></span> Artarmon Dentists. All rights reserved. <a href="https://www.artarmondentists.com/privacy-policy/" target="_blank" rel="noopener">Privacy</a></p>
+  </div>
+</footer>
+
+<!-- Mobile dock -->
+<nav class="dock" aria-label="Quick actions">
+  <a class="btn btn-ghost" href="tel:+61250239112">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    Call us
+  </a>
+  <a class="btn btn-primary" href="#book">Book now</a>
+</nav>
+
+<script>
+document.getElementById('yr').textContent = new Date().getFullYear();
+
+/* ---------- Open now (Australia/Sydney) ---------- */
+(function openNow(){
+  // [open, close] in minutes from midnight; null = closed. 0 = Sunday.
+  var HOURS = {1:[480,1080],2:[480,1080],3:[480,1080],4:[480,1140],5:[480,900],6:null,0:null};
+  var DAYS = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+  function fmt(m){ var h=Math.floor(m/60), mm=m%60, ap=h>=12?'pm':'am'; h=h%12||12; return h+(mm?':'+(mm<10?'0':'')+mm:'')+ap; }
+  function sydneyNow(){
+    try{
+      var p = new Intl.DateTimeFormat('en-AU',{timeZone:'Australia/Sydney',weekday:'short',hour:'numeric',minute:'numeric',hour12:false}).formatToParts(new Date());
+      var o={}; p.forEach(function(x){ o[x.type]=x.value; });
+      var day = ['Sun','Mon','Tue','Wed','Thu','Fri','Sat'].indexOf(o.weekday.slice(0,3));
+      var hr = parseInt(o.hour,10)%24, mi = parseInt(o.minute,10);
+      return {day:day, mins:hr*60+mi};
+    }catch(e){ var d=new Date(); return {day:d.getDay(), mins:d.getHours()*60+d.getMinutes()}; }
+  }
+  var now = sydneyNow(), today = HOURS[now.day], open=false, text='';
+  if(today && now.mins>=today[0] && now.mins<today[1]){
+    open = true; text = 'Open now, closes ' + fmt(today[1]);
+  } else {
+    // find next opening
+    var d = now.day, add = 0;
+    if(today && now.mins<today[0]){ text = 'Opens today at ' + fmt(today[0]); }
+    else {
+      for(var i=1;i<=7;i++){ var nd=(d+i)%7; if(HOURS[nd]){ add=i; d=nd; break; } }
+      text = 'Closed now, opens ' + (add===1?'tomorrow':DAYS[d]) + ' ' + fmt(HOURS[d][0]);
+    }
+  }
+  document.querySelectorAll('[data-status]').forEach(function(el){
+    el.classList.add(open?'is-open':'is-closed');
+    el.querySelector('.txt').textContent = text;
+  });
+  var row = document.querySelector('[data-hours] [data-day="'+now.day+'"]');
+  if(row) row.classList.add('today');
+})();
+
+/* ---------- Click-to-play Vimeo facades ---------- */
+(function initVideoFacades(){
+  document.querySelectorAll('.vfacade[data-vimeo]').forEach(function(node){
+    var id = node.getAttribute('data-vimeo');
+    var poster = node.querySelector('.vposter');
+    var cap = node.querySelector('.vcap');
+    var keepPoster = poster && poster.style.backgroundImage;
+    fetch('https://vimeo.com/api/oembed.json?width=1280&url=https://vimeo.com/' + id)
+      .then(function(r){ return r.ok ? r.json() : null; })
+      .then(function(d){
+        if(!d) return;
+        if(poster && !keepPoster && d.thumbnail_url){ poster.style.backgroundImage = 'url("' + d.thumbnail_url.replace(/"/g,'') + '")'; }
+        if(cap && !cap.hasAttribute('data-locked') && d.title){ cap.textContent = d.title; }
+      }).catch(function(){});
+    function play(){
+      if(node.classList.contains('playing')) return;
+      var f = document.createElement('iframe');
+      f.src = 'https://player.vimeo.com/video/' + id + '?autoplay=1&title=0&byline=0&portrait=0&dnt=1';
+      f.setAttribute('allow','autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share');
+      f.setAttribute('allowfullscreen','');
+      f.setAttribute('title', (cap && cap.textContent.trim()) ? cap.textContent.trim() : 'Artarmon Dentists video');
+      node.appendChild(f); node.classList.add('playing');
+    }
+    node.addEventListener('click', play);
+    node.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); play(); } });
+  });
+})();
+
+/* ---------- Reveal on scroll (desktop) ---------- */
+(function(){
+  var els = document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window) || window.matchMedia('(prefers-reduced-motion: reduce)').matches){ els.forEach(function(e){ e.classList.add('in'); }); return; }
+  var io = new IntersectionObserver(function(entries){ entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('in'); io.unobserve(en.target); } }); },{threshold:.12});
+  els.forEach(function(e){ io.observe(e); });
+})();
+</script>
+</body>
+</html>
